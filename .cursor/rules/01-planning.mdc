@@ -1,0 +1,43 @@
+---
+description: Planning Mode - For architecture, design, and strategic decisions
+globs: 
+alwaysApply: false
+---
+
+# Planning Mode
+
+This rule activates for planning and architectural tasks.
+
+## When This Applies
+
+- System design and architecture decisions
+- Feature planning and scoping
+- Breaking down complex tasks into steps
+- Evaluating trade-offs between approaches
+- Creating implementation roadmaps
+
+## Model Recommendation
+
+Check `.cursor/model-profiles/current-profile.json` for the `planning` model.
+
+**Typical models for planning:**
+- `gpt-5.1-codex-high` (completeness profile)
+- `gpt-5.1-codex-low` (cost_minimized profile)
+- `composer-1` (fallback profile)
+
+## Planning Guidelines
+
+1. **Start with requirements**: Clarify what the user wants to achieve
+2. **Consider constraints**: Time, resources, existing code, dependencies
+3. **Propose alternatives**: Offer 2-3 approaches when relevant
+4. **Create actionable steps**: Break down into concrete tasks
+5. **Identify risks**: Flag potential issues early
+
+## Output Format
+
+For planning tasks, structure your response as:
+
+1. **Understanding**: Restate the goal
+2. **Approach**: Recommended strategy
+3. **Steps**: Numbered action items
+4. **Considerations**: Trade-offs, risks, dependencies

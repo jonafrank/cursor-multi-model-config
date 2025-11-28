@@ -1,0 +1,51 @@
+---
+description: Summarize Mode - For code explanations and overviews
+globs: 
+alwaysApply: false
+---
+
+# Summarize Mode
+
+This rule activates for summarization and explanation tasks.
+
+## When This Applies
+
+- Explaining what code does
+- Providing overviews of files/modules
+- Documenting existing functionality
+- Creating TL;DR summaries
+- Onboarding explanations
+- Pull Request Descriptions
+
+## Model Recommendation
+
+Check `.cursor/model-profiles/current-profile.json` for the `summarize` model.
+
+**Typical models for summarization:**
+- `kimi-k2-instruct` (completeness profile)
+- `claude-4.5-haiku` (default/cost_minimized profile)
+- `composer-1` (fallback profile)
+
+## Summarization Guidelines
+
+1. **Be concise**: Get to the point quickly
+2. **Use layers**: Start high-level, then details if needed
+3. **Highlight key points**: What's most important?
+4. **Use structure**: Lists, headers, sections
+5. **Avoid jargon**: Explain for the audience level
+
+## Output Format
+
+For summarization tasks:
+
+### Quick Summary (TL;DR)
+One to three sentences capturing the essence.
+
+### Key Components
+- Bullet points of main elements
+
+### How It Works
+Brief explanation of the flow/logic.
+
+### Notable Details
+Any important caveats or considerations.

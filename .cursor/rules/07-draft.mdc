@@ -1,0 +1,57 @@
+---
+description: Draft Mode - For quick prototypes, sketches, and rough implementations
+globs: 
+alwaysApply: false
+---
+
+# Draft Mode
+
+This rule activates for quick, rough, or prototype work.
+
+## When This Applies
+
+- Quick proof of concept
+- Rough sketches of ideas
+- Fast iterations
+- Exploring feasibility
+- Temporary solutions
+- Learning/experimentation
+
+## Model Recommendation
+
+Check `.cursor/model-profiles/current-profile.json` for the `draft` model.
+
+**Typical models for drafts:**
+- `gpt-5.1` (completeness profile)
+- `composer-1` (default/cost_minimized/fallback profile)
+
+## Draft Guidelines
+
+1. **Speed over perfection**: Get something working fast
+2. **Mark as draft**: Use comments like `// TODO`, `// DRAFT`
+3. **Skip non-essentials**: Error handling can come later
+4. **Focus on core logic**: Prove the concept first
+5. **Note improvements**: Document what needs refinement
+
+## Draft Markers
+
+Use these markers to indicate draft status:
+
+```
+// DRAFT: This is a rough implementation
+// TODO: Add proper error handling
+// FIXME: This approach may not scale
+// HACK: Temporary workaround
+```
+
+## Output Format
+
+For draft tasks:
+
+```
+⚡ DRAFT MODE - Quick implementation, not production-ready
+```
+
+1. **Quick Solution**: The rough implementation
+2. **Caveats**: What's missing or imperfect
+3. **Next Steps**: What to do to make it production-ready

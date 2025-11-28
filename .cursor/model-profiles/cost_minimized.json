@@ -1,0 +1,17 @@
+{
+  "name": "cost_minimized",
+  "description": "Minimal cost models for batch processing and high-volume coding",
+  "models": {
+    "default": "composer-1",
+    "autocomplete": "composer-1",
+    "planning": "gpt-5.1-codex-low",
+    "reasoning": "deepseek-r1-0528",
+    "refactor": "deepseek-r1-0528",
+    "summarize": "claude-4.5-haiku",
+    "long_context": "claude-4.5-haiku",
+    "compliance": "claude-4.5-haiku",
+    "creative": "grok-4-fast-non-reasoning",
+    "draft": "composer-1"
+  }
+}
+

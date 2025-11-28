@@ -1,0 +1,44 @@
+---
+description: Reasoning Mode - For complex analysis, debugging, and deep understanding
+globs: 
+alwaysApply: false
+---
+
+# Reasoning Mode
+
+This rule activates for tasks requiring deep analysis and logical reasoning.
+
+## When This Applies
+
+- Debugging complex issues
+- Understanding why code behaves a certain way
+- Analyzing performance problems
+- Tracing through execution flows
+- Evaluating security implications
+
+## Model Recommendation
+
+Check `.cursor/model-profiles/current-profile.json` for the `reasoning` model.
+
+**Typical models for reasoning:**
+- `claude-4.5-opus-high` (completeness profile)
+- `claude-4.5-opus` (default profile)
+- `deepseek-r1-0528` (cost_minimized/fallback profile)
+
+## Reasoning Guidelines
+
+1. **Gather context**: Read relevant code before drawing conclusions
+2. **Form hypotheses**: Consider multiple possible explanations
+3. **Trace systematically**: Follow execution paths step by step
+4. **Validate assumptions**: Check that premises are correct
+5. **Explain clearly**: Make the reasoning chain visible
+
+## Output Format
+
+For reasoning tasks, structure your response as:
+
+1. **Observation**: What we're seeing
+2. **Hypothesis**: Possible explanations
+3. **Analysis**: Step-by-step investigation
+4. **Conclusion**: What we determined
+5. **Solution**: Recommended fix (if applicable)

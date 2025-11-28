@@ -1,0 +1,17 @@
+{
+  "name": "fallback",
+  "description": "Low-cost, fast models for quota exhaustion situations",
+  "models": {
+    "default": "composer-1",
+    "autocomplete": "composer-1",
+    "planning": "composer-1",
+    "reasoning": "deepseek-r1-0528",
+    "refactor": "deepseek-r1-0528",
+    "summarize": "composer-1",
+    "long_context": "composer-1",
+    "compliance": "deepseek-r1-0528",
+    "creative": "composer-1",
+    "draft": "composer-1"
+  }
+}
+

@@ -1,0 +1,52 @@
+---
+description: Model Router - Detects task type and recommends appropriate AI model based on active profile
+globs: 
+alwaysApply: true
+---
+
+# Model Router
+
+You have access to a model configuration system. When responding to user requests, identify the task type and recommend the appropriate model from the active profile.
+
+## Active Profile Reference
+
+The current model profile is defined in `.cursor/model-profiles/current-profile.json`. Read this file to determine which models are configured for each task type.
+
+## Task Type Detection
+
+Analyze the user's request to identify the primary task type:
+
+| Task Type | Trigger Keywords/Patterns |
+|-----------|---------------------------|
+| **planning** | "plan", "design", "architect", "structure", "how should I", "what's the best approach" |
+| **reasoning** | "why", "explain", "analyze", "debug", "what's happening", "understand" |
+| **refactor** | "refactor", "clean up", "improve", "optimize", "restructure", "rename" |
+| **summarize** | "summarize", "overview", "what does this do", "explain this code", "tl;dr" |
+| **long_context** | Large file operations, multiple files, entire codebase questions |
+| **compliance** | "review", "check", "validate", "security", "best practices", "standards" |
+| **creative** | "create", "build", "new feature", "implement", "write", "generate" |
+| **draft** | "quick", "draft", "sketch", "rough", "prototype", "poc" |
+
+## Response Format
+
+When you detect a task type, include a model recommendation at the start of your response:
+
+```
+📍 Task: [task_type] → Recommended model: [model_name]
+```
+
+If the user is already using the recommended model, you can omit this notice.
+
+## Profile Awareness
+
+- If the user mentions "quota", "rate limit", or "too expensive", suggest switching to the `fallback` or `cost_minimized` profile
+- If the user needs deep analysis or multi-file work, suggest the `completeness` profile
+- For batch operations, suggest `cost_minimized` profile
+
+## Model Selection Guidance
+
+When recommending a model switch, explain why:
+- **Speed**: Some models are faster for quick iterations
+- **Depth**: Some models provide more thorough analysis
+- **Cost**: Some models are more cost-effective
+- **Context**: Some models handle larger contexts better

@@ -1,0 +1,16 @@
+{
+  "name": "default",
+  "description": "Balanced speed and completeness for normal daily use",
+  "models": {
+    "default": "gpt-5.1",
+    "autocomplete": "composer-1",
+    "planning": "gpt-5.1-codex-high",
+    "reasoning": "claude-4.5-opus",
+    "refactor": "deepseek-v3.1",
+    "summarize": "claude-4.5-haiku",
+    "long_context": "kimi-k2-instruct",
+    "compliance": "claude-4.5-opus",
+    "creative": "grok-4-fast-reasoning",
+    "draft": "composer-1"
+  }
+}

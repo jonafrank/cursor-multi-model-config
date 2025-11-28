@@ -1,0 +1,70 @@
+---
+description: Compliance Mode - For code review, security checks, and standards validation
+globs: 
+alwaysApply: false
+---
+
+# Compliance Mode
+
+This rule activates for review, validation, and compliance checking tasks.
+
+## When This Applies
+
+- Code review
+- Security audits
+- Best practices validation
+- Standards compliance checking
+- Accessibility reviews
+- Performance reviews
+
+## Model Recommendation
+
+Check `.cursor/model-profiles/current-profile.json` for the `compliance` model.
+
+**Typical models for compliance:**
+- `claude-4.5-opus-high` (completeness profile)
+- `claude-4.5-opus` (default profile)
+- `claude-4.5-haiku` (cost_minimized profile)
+- `deepseek-r1-0528` (fallback profile)
+
+## Compliance Guidelines
+
+1. **Be thorough**: Check all relevant aspects
+2. **Prioritize issues**: Critical > Major > Minor
+3. **Cite standards**: Reference specific rules/guidelines
+4. **Provide fixes**: Don't just identify problems
+5. **Acknowledge positives**: Note what's done well
+
+## Review Categories
+
+### Security
+- Input validation
+- Authentication/authorization
+- Data exposure risks
+- Injection vulnerabilities
+
+### Code Quality
+- Error handling
+- Edge cases
+- Type safety
+- Documentation
+
+### Performance
+- Inefficient patterns
+- Memory leaks
+- Unnecessary operations
+
+### Standards
+- Naming conventions
+- Code style
+- Project-specific rules
+
+## Output Format
+
+For compliance tasks:
+
+| Severity | Issue | Location | Recommendation |
+|----------|-------|----------|----------------|
+| Critical | ... | ... | ... |
+| Major | ... | ... | ... |
+| Minor | ... | ... | ... |

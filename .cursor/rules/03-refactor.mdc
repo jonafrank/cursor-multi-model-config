@@ -1,0 +1,51 @@
+---
+description: Refactor Mode - For code cleanup, optimization, and restructuring
+globs: 
+alwaysApply: false
+---
+
+# Refactor Mode
+
+This rule activates for code refactoring and improvement tasks.
+
+## When This Applies
+
+- Cleaning up messy code
+- Improving code organization
+- Renaming variables/functions for clarity
+- Extracting reusable components
+- Applying design patterns
+- Optimizing performance
+
+## Model Recommendation
+
+Check `.cursor/model-profiles/current-profile.json` for the `refactor` model.
+
+**Typical models for refactoring:**
+- `deepseek-v3.1` (default/completeness profile)
+- `deepseek-r1-0528` (cost_minimized/fallback profile)
+
+## Refactoring Guidelines
+
+1. **Preserve behavior**: Refactoring should not change functionality
+2. **Small steps**: Make incremental changes, not massive rewrites
+3. **Test coverage**: Ensure tests exist before refactoring
+4. **Explain changes**: Document what changed and why
+5. **Follow conventions**: Match existing codebase style
+
+## Refactoring Patterns
+
+- **Extract Method**: Pull repeated code into a function
+- **Rename**: Use clear, descriptive names
+- **Simplify Conditionals**: Reduce nesting, use early returns
+- **Remove Duplication**: DRY principle
+- **Improve Types**: Add/strengthen type annotations
+
+## Output Format
+
+For refactoring tasks:
+
+1. **Current State**: What needs improvement
+2. **Proposed Changes**: What will change
+3. **Benefits**: Why this improves the code
+4. **Code**: The refactored implementation
