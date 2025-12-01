@@ -1,6 +1,15 @@
 # Cursor Multi-Model Configuration Template
 
-A reusable template for configuring Cursor to recommend different AI models based on task types.
+A configuration template that makes Cursor automatically recommend the best AI model for your task—plan with GPT-5, debug with Claude, refactor with DeepSeek, or optimize costs on demand.
+#### WHAT IT DOES:
+* Task Detection: Identifies what you're doing (planning, debugging, refactoring, etc.)
+* 4 Model Profiles: default (balanced), completeness (premium), cost_minimized (batch), fallback (quota-exhausted)
+* 7 Slash Commands: /planning, /reasoning, /refactor, /summarize, /compliance, /creative, /draft
+* 10 Task-Specific Rules: Guidelines and best practices for each mode
+* Zero Configuration: Copy .cursor folder to any project, get instant model routing
+  
+#### WHY IT MATTERS:
+Cursor supports 10+ AI models, each optimized for different work. Manual switching is friction. This removes that friction—you get the right tool automatically, or switch to a cost-optimized profile when quota runs low.
 
 ## Quick Start
 
