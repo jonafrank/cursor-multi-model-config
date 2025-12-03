@@ -8,7 +8,7 @@
     "reasoning": "claude-4.5-opus",
     "refactor": "deepseek-v3.1",
     "summarize": "claude-4.5-haiku",
-    "long_context": "kimi-k2-instruct",
+    "long_context": "claude-4.5-opus",
     "compliance": "claude-4.5-opus",
     "creative": "grok-4-fast-reasoning",
     "draft": "composer-1"

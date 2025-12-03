@@ -7,8 +7,8 @@
     "planning": "gpt-5.1-codex-high",
     "reasoning": "claude-4.5-opus-high",
     "refactor": "deepseek-v3.1",
-    "summarize": "kimi-k2-instruct",
-    "long_context": "kimi-k2-instruct",
+    "summarize": "claude-4.5-sonnet",
+    "long_context": "claude-4.5-opus",
     "compliance": "claude-4.5-opus-high",
     "creative": "grok-4-fast-reasoning",
     "draft": "gpt-5.1"
