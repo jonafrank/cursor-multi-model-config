@@ -22,8 +22,9 @@ This rule activates for code refactoring and improvement tasks.
 Check `.cursor/model-profiles/current-profile.json` for the `refactor` model.
 
 **Typical models for refactoring:**
-- `deepseek-v3.1` (default/completeness profile)
-- `deepseek-r1-0528` (cost_minimized/fallback profile)
+- `gpt-5.2` (completeness profile)
+- `gpt-5.1-codex-high` (default profile)
+- `composer-1` (cost_minimized/fallback profile)
 
 ## Refactoring Guidelines
 

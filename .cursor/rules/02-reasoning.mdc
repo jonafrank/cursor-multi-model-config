@@ -21,9 +21,8 @@ This rule activates for tasks requiring deep analysis and logical reasoning.
 Check `.cursor/model-profiles/current-profile.json` for the `reasoning` model.
 
 **Typical models for reasoning:**
-- `claude-4.5-opus-high` (completeness profile)
-- `claude-4.5-opus` (default profile)
-- `deepseek-r1-0528` (cost_minimized/fallback profile)
+- `claude-4.5-opus-high` (completeness/default profile)
+- `claude-4.5-haiku` (cost_minimized/fallback profile)
 
 ## Reasoning Guidelines
 

@@ -5,12 +5,12 @@
     "default": "gpt-5.1",
     "autocomplete": "composer-1",
     "planning": "gpt-5.1-codex-high",
-    "reasoning": "claude-4.5-opus",
-    "refactor": "deepseek-v3.1",
+    "reasoning": "claude-4.5-opus-high",
+    "refactor": "gpt-5.1-codex-high",
     "summarize": "claude-4.5-haiku",
-    "long_context": "kimi-k2-instruct",
-    "compliance": "claude-4.5-opus",
-    "creative": "grok-4-fast-reasoning",
+    "long_context": "claude-4.5-opus-high",
+    "compliance": "claude-4.5-opus-high",
+    "creative": "gpt-5.1-codex-high",
     "draft": "composer-1"
   }
 }

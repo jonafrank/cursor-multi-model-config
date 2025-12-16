@@ -22,10 +22,8 @@ This rule activates for review, validation, and compliance checking tasks.
 Check `.cursor/model-profiles/current-profile.json` for the `compliance` model.
 
 **Typical models for compliance:**
-- `claude-4.5-opus-high` (completeness profile)
-- `claude-4.5-opus` (default profile)
-- `claude-4.5-haiku` (cost_minimized profile)
-- `deepseek-r1-0528` (fallback profile)
+- `claude-4.5-opus-high` (completeness/default profile)
+- `claude-4.5-haiku` (cost_minimized/fallback profile)
 
 ## Compliance Guidelines
 

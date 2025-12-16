@@ -5,12 +5,12 @@
     "default": "composer-1",
     "autocomplete": "composer-1",
     "planning": "gpt-5.1-codex-low",
-    "reasoning": "deepseek-r1-0528",
-    "refactor": "deepseek-r1-0528",
+    "reasoning": "claude-4.5-haiku",
+    "refactor": "composer-1",
     "summarize": "claude-4.5-haiku",
     "long_context": "claude-4.5-haiku",
     "compliance": "claude-4.5-haiku",
-    "creative": "grok-4-fast-non-reasoning",
+    "creative": "gemini-2.5-flash",
     "draft": "composer-1"
   }
 }

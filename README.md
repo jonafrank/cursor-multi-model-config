@@ -180,12 +180,12 @@ Edit the `.mdc` files in `.cursor/rules/` to customize:
 | default | gpt-5.1 |
 | autocomplete | composer-1 |
 | planning | gpt-5.1-codex-high |
-| reasoning | claude-4.5-opus |
-| refactor | deepseek-v3.1 |
+| reasoning | claude-4.5-opus-high |
+| refactor | gpt-5.1-codex-high |
 | summarize | claude-4.5-haiku |
-| long_context | kimi-k2-instruct |
-| compliance | claude-4.5-opus |
-| creative | grok-4-fast-reasoning |
+| long_context | claude-4.5-opus-high |
+| compliance | claude-4.5-opus-high |
+| creative | gpt-5.1-codex-high |
 | draft | composer-1 |
 
 ### Completeness Profile Models
@@ -196,11 +196,11 @@ Edit the `.mdc` files in `.cursor/rules/` to customize:
 | autocomplete | composer-1 |
 | planning | gpt-5.1-codex-high |
 | reasoning | claude-4.5-opus-high |
-| refactor | deepseek-v3.1 |
-| summarize | kimi-k2-instruct |
-| long_context | kimi-k2-instruct |
+| refactor | gpt-5.2 |
+| summarize | claude-4.5-sonnet |
+| long_context | claude-4.5-opus |
 | compliance | claude-4.5-opus-high |
-| creative | grok-4-fast-reasoning |
+| creative | gpt-5.2 |
 | draft | gpt-5.1 |
 
 ### Cost Minimized Profile Models
@@ -210,12 +210,12 @@ Edit the `.mdc` files in `.cursor/rules/` to customize:
 | default | composer-1 |
 | autocomplete | composer-1 |
 | planning | gpt-5.1-codex-low |
-| reasoning | deepseek-r1-0528 |
-| refactor | deepseek-r1-0528 |
+| reasoning | claude-4.5-haiku |
+| refactor | composer-1 |
 | summarize | claude-4.5-haiku |
 | long_context | claude-4.5-haiku |
 | compliance | claude-4.5-haiku |
-| creative | grok-4-fast-non-reasoning |
+| creative | gemini-2.5-flash |
 | draft | composer-1 |
 
 ### Fallback Profile Models
@@ -225,11 +225,11 @@ Edit the `.mdc` files in `.cursor/rules/` to customize:
 | default | composer-1 |
 | autocomplete | composer-1 |
 | planning | composer-1 |
-| reasoning | deepseek-r1-0528 |
-| refactor | deepseek-r1-0528 |
+| reasoning | claude-4.5-haiku |
+| refactor | composer-1 |
 | summarize | composer-1 |
 | long_context | composer-1 |
-| compliance | deepseek-r1-0528 |
+| compliance | claude-4.5-haiku |
 | creative | composer-1 |
 | draft | composer-1 |
 

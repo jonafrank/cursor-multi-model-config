@@ -5,11 +5,11 @@
     "default": "composer-1",
     "autocomplete": "composer-1",
     "planning": "composer-1",
-    "reasoning": "deepseek-r1-0528",
-    "refactor": "deepseek-r1-0528",
+    "reasoning": "claude-4.5-haiku",
+    "refactor": "composer-1",
     "summarize": "composer-1",
     "long_context": "composer-1",
-    "compliance": "deepseek-r1-0528",
+    "compliance": "claude-4.5-haiku",
     "creative": "composer-1",
     "draft": "composer-1"
   }

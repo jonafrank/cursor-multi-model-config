@@ -6,11 +6,11 @@
     "autocomplete": "composer-1",
     "planning": "gpt-5.1-codex-high",
     "reasoning": "claude-4.5-opus-high",
-    "refactor": "deepseek-v3.1",
+    "refactor": "gpt-5.2",
     "summarize": "claude-4.5-sonnet",
     "long_context": "claude-4.5-opus",
     "compliance": "claude-4.5-opus-high",
-    "creative": "grok-4-fast-reasoning",
+    "creative": "gpt-5.2",
     "draft": "gpt-5.1"
   }
 }

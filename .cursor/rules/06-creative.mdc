@@ -21,8 +21,9 @@ This rule activates for creative, generative, and implementation tasks.
 Check `.cursor/model-profiles/current-profile.json` for the `creative` model.
 
 **Typical models for creative tasks:**
-- `grok-4-fast-reasoning` (default/completeness profile)
-- `grok-4-fast-non-reasoning` (cost_minimized profile)
+- `gpt-5.2` (completeness profile)
+- `gpt-5.1-codex-high` (default profile)
+- `gemini-2.5-flash` (cost_minimized profile)
 - `composer-1` (fallback profile)
 
 ## Creative Guidelines
